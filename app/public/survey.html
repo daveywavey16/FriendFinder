@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Friends Page</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- Chosen -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+	<style>
+		@media (min-width: 576px)
+		.modal-dialog {
+		    max-width: 800px !important;
+		    margin: 1.75rem auto;
+		}
+	</style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-center">
+        <span class="fa fa-fire"></span> FRIEND FINDER </h1>
+      <hr>
+      <h2 class="text-center">Find your friends</h2>
+      <br>
+      <div class="text-center">
+        <a href="/friends">
+          <button class="btn btn-lg btn-primary">
+            <span class="fa fa-list-alt"></span> View Friends</button>
+        </a>
+        <a href="/">
+          <button class="btn btn-lg btn-default">
+            <span class="fa fa-home"></span>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Reservation Page -->
+        <div class="card">
+          <div class="card-header">
+            Friend Survey Questions
+          </div>
+          <div class="card-body">
+            <form role="form">
+	          
+             <h4>Name (Required)</h4>
+              <input type="text" class="form-control" id="name" required>
+            
+		     <h4>Upload Image (Required)</h4>
+              <input type="file" id="photo" class="form-control" required>
+              
+              <hr /> 
+		     
+		     <h3>Question 1</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q1">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+
+			 <h3>Question 2</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q2">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+
+			 <h3>Question 3</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q3">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+
+			 <h3>Question 4</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q4">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+
+			 <h3>Question 5</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q5">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+
+			 <h3>Question 6</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q6">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+
+			 <h3>Question 7</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q7">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+			 
+			  <h3>Question 8</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q8">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+
+			 <h3>Question 9</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q9">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>
+			 </select>
+
+			 <h3>Question 10</h3>
+		     <h4>random question about cars</h4>
+		     <select data-placeholder="" class="chosen-select" id="q10">
+			    <option value="1">1 (strongly Disagree)</option>
+			    <option value="2">2 </option>
+			    <option value="3">3 </option>
+			    <option value="4">4 </option>
+			    <option value="5">5 (Strongly Agree)</option>	
+			 </select>
+			 
+              <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/api/friends">API Table Link</a>
+      </div>
+    </footer>
+    
+	<div id="resultsModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+		    <div class="modal-content">
+			    <div class="modal-header">
+				    <h2 class="modal-tital"><strong>Best Match</strong></h2>
+				    <button type="button" class="close" data-dismiss="modal">&times;</button>
+				    
+			    </div>
+			    <div class="modal-body">
+				    <h2 id="matchName"></h2>
+					<img id="matchImg" src="http://via.placeholder.com/400x400" alt="" />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		    	</div>
+		    </div>
+	    </div>
+	 </div>
+
+</body>
+
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+  // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+  // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+		$("#submit").on("click", function () {
+		// Form validation
+		function validateForm() {
+			var isValid = true;
+			$('.form-control').each(function () {
+				if ($(this).val() === '')
+					isValid = false; //set back to false;
+			});
+			$('.chosen-select').each(function () {
+				if ($(this).val() === "")
+					isValid = false; //set back to false
+			})
+			return isValid;
+		}
+		// If all required fields are filled
+		if (validateForm()) {
+			// Create an object for the user's data
+			var userData = {
+				name: $("#name").val(),
+				photo: $("#photo").val(),
+				scores: [
+					$("#q1").val(),
+					$("#q2").val(),
+					$("#q3").val(),
+					$("#q4").val(),
+					$("#q5").val(),
+					$("#q6").val(),
+					$("#q7").val(),
+					$("#q8").val(),
+					$("#q9").val(),
+					$("#q10").val(),]
+			}
+			// Grab the URL of the website
+			var currentURL = window.location.origin;
+			// AJAX post the data to the friends API. 
+			$.post(currentURL + "/api/friends", userData, function (data) {
+				// Grab the result from the AJAX post so that the best match's name and photo are displayed.
+				$("#matchName").text(data.name);
+				$("#matchImg").attr("src",data.photo);
+				// Show the modal with the best match
+				$("#resultsModal").modal("toggle");
+			});
+		}
+		else {
+			alert("Please fill out all fields before submitting!");
+		}
+		return false;
+	});
+
+  
+
+</script>
